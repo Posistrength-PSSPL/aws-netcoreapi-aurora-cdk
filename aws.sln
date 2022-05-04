@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aws", "aws.csproj", "{8A103FAD-5B10-4C30-AC39-877CDD4845E9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A103FAD-5B10-4C30-AC39-877CDD4845E9}.Debug|x86.ActiveCfg = Debug|x86
+		{8A103FAD-5B10-4C30-AC39-877CDD4845E9}.Debug|x86.Build.0 = Debug|x86
+		{8A103FAD-5B10-4C30-AC39-877CDD4845E9}.Release|x86.ActiveCfg = Release|x86
+		{8A103FAD-5B10-4C30-AC39-877CDD4845E9}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A60B8774-0572-4B38-A3E6-FAF970CBA42C}
+	EndGlobalSection
+EndGlobal

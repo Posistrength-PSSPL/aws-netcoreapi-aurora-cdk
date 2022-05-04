@@ -1,0 +1,186 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{8A103FAD-5B10-4C30-AC39-877CDD4845E9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>WindowsApplication</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>aws</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include=".gitignore" />
+    <Content Include="blog\microsoft .net web api in aws using cdk.png" />
+    <Content Include="cdk\src\Todo.sln" />
+    <Content Include="cdk\src\Todo\obj\Debug\netcoreapp2.1\Todo.csproj.FileListAbsolute.txt" />
+    <Content Include="cdk\src\Todo\obj\Debug\netcoreapp2.1\Todo.dll" />
+    <Content Include="cdk\src\Todo\obj\Debug\netcoreapp2.1\Todo.pdb" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".git\COMMIT_EDITMSG" />
+    <None Include=".git\config" />
+    <None Include=".git\description" />
+    <None Include=".git\HEAD" />
+    <None Include=".git\hooks\applypatch-msg.sample" />
+    <None Include=".git\hooks\commit-msg.sample" />
+    <None Include=".git\hooks\fsmonitor-watchman.sample" />
+    <None Include=".git\hooks\post-update.sample" />
+    <None Include=".git\hooks\pre-applypatch.sample" />
+    <None Include=".git\hooks\pre-commit.sample" />
+    <None Include=".git\hooks\pre-merge-commit.sample" />
+    <None Include=".git\hooks\pre-push.sample" />
+    <None Include=".git\hooks\pre-rebase.sample" />
+    <None Include=".git\hooks\pre-receive.sample" />
+    <None Include=".git\hooks\prepare-commit-msg.sample" />
+    <None Include=".git\hooks\push-to-checkout.sample" />
+    <None Include=".git\hooks\update.sample" />
+    <None Include=".git\index" />
+    <None Include=".git\info\exclude" />
+    <None Include=".git\logs\HEAD" />
+    <None Include=".git\logs\refs\heads\main" />
+    <None Include=".git\logs\refs\remotes\origin\HEAD" />
+    <None Include=".git\logs\refs\remotes\origin\main" />
+    <None Include=".git\objects\00\6c4dca21fbb14a6fe94cd9e5362975b0476512" />
+    <None Include=".git\objects\00\a9fcc7b83e6b2325be74cd76cd4aa64da737a9" />
+    <None Include=".git\objects\06\e83da92148bb9f8c1b7f7494ce818c9ea192b6" />
+    <None Include=".git\objects\0e\cc9efefdf68468269a7c5af4a25e4f231f2197" />
+    <None Include=".git\objects\0f\33c7b6336e17db583ecf91dbea13884dcf6ebc" />
+    <None Include=".git\objects\11\57054c8994e318b67ee66f577e20d564276c64" />
+    <None Include=".git\objects\1f\ec7c08b3ea48288e63c1ab8e640731f95a9bad" />
+    <None Include=".git\objects\27\6a1d980def5fdf9b06830bfb25cbe3770de3c5" />
+    <None Include=".git\objects\28\882bcaa0719bd83e311381148c881613de429b" />
+    <None Include=".git\objects\36\86b21aa2c6ef19d3c1596315c07414b74d3d13" />
+    <None Include=".git\objects\39\de1b842bc212af417dea50edc48491c56c78c0" />
+    <None Include=".git\objects\3f\71b8b22c541c54bb48f887d952e8024e516c9e" />
+    <None Include=".git\objects\40\2eee755753bfcae0d2be7b2df108b3c46d4d2a" />
+    <None Include=".git\objects\44\15bf5c6179b863b2f66575dea81d881f513474" />
+    <None Include=".git\objects\49\a262a70b52bb82d15e2eeeb82b8996de8ac973" />
+    <None Include=".git\objects\4e\d7d2a7783f21e3693b8fd52365b50d0f351635" />
+    <None Include=".git\objects\50\92d4949ebeabc9988ece56d4ad2af1debb3cdd" />
+    <None Include=".git\objects\55\cf0bfd77b495bf5a34d66be89f6f8c0b32f5ed" />
+    <None Include=".git\objects\5b\627cfa60b5313da2c7df81aab2340225c2329f" />
+    <None Include=".git\objects\71\a4402775ec20887fd8023ce4c9e8bc23a18769" />
+    <None Include=".git\objects\72\ae661d6d628c5bbb29c3f1769a224d77454e27" />
+    <None Include=".git\objects\7b\7fda9997cd4b9083244a672628f69351339c13" />
+    <None Include=".git\objects\7d\7dbe20c8db1ed94844c8e284a042db973bee00" />
+    <None Include=".git\objects\8b\06c33755a4e36f41670fcb07efd17b8e4256e3" />
+    <None Include=".git\objects\91\4e0741d75b0890f3fc750d77e13a9d17e5bad1" />
+    <None Include=".git\objects\9a\f55908c96e478cb9e818c672c4702e4ab2b910" />
+    <None Include=".git\objects\a2\f1256f464fe9a289b1d8f402f7c5ee22ab79d4" />
+    <None Include=".git\objects\a8\27e8502393b04dea6542c28789fa4b8b1584d9" />
+    <None Include=".git\objects\ad\dbe74d32802377aab55bebefa365c834620146" />
+    <None Include=".git\objects\bf\61f95f6dc5d1ace0bb0c0301fb02418d24700e" />
+    <None Include=".git\objects\cc\f544395fe489026014a7b014f3e17168dd814c" />
+    <None Include=".git\objects\cf\07785ce1db715cbcd2d59f68c264e89c6dec35" />
+    <None Include=".git\objects\d4\f0f07145cc366935b385d4a63d88548d1db318" />
+    <None Include=".git\objects\da\57303bf7787deb0b53e3f9a5b6bf515ddef5c5" />
+    <None Include=".git\objects\de\f9159a7d9403c04a926f64e71ef3ee7c9e4c57" />
+    <None Include=".git\objects\df\001acdb1e495e113b727709744eb0f9c508cbc" />
+    <None Include=".git\objects\e2\03e9407e74a6b9662aab8fde5d73ae64665f18" />
+    <None Include=".git\objects\e4\53b39b369b899c21ac48379c5c27b766e143ea" />
+    <None Include=".git\objects\e4\c1f9229a005fb98d3911cb9c52ac801503f6ad" />
+    <None Include=".git\objects\e8\a585739ebcf4f41a17e1fff8fc6c1a85dca82f" />
+    <None Include=".git\objects\f1\224d6489ff9c4435613282ae3749dacb378880" />
+    <None Include=".git\objects\f4\e538ec6cd218f7de1a89405581b193643998d6" />
+    <None Include=".git\objects\fc\c7fa6828c40b2189052d7576f35ec52462fbc6" />
+    <None Include=".git\objects\pack\pack-03f027e2065e15a85777f982ad99185b08685402.idx" />
+    <None Include=".git\objects\pack\pack-03f027e2065e15a85777f982ad99185b08685402.pack" />
+    <None Include=".git\packed-refs" />
+    <None Include=".git\refs\heads\main" />
+    <None Include=".git\refs\remotes\origin\HEAD" />
+    <None Include=".git\refs\remotes\origin\main" />
+    <None Include="cdk\cdk.json" />
+    <None Include="cdk\cdk.out\cdk.out" />
+    <None Include="cdk\cdk.out\manifest.json" />
+    <None Include="cdk\cdk.out\TodoInfraStack.template.json" />
+    <None Include="cdk\cdk.out\tree.json" />
+    <None Include="cdk\config\buildspec.yml" />
+    <None Include="cdk\run.sh" />
+    <None Include="cdk\src\Todo\obj\Debug\netcoreapp2.1\Todo.AssemblyInfoInputs.cache" />
+    <None Include="cdk\src\Todo\obj\Debug\netcoreapp2.1\Todo.assets.cache" />
+    <None Include="cdk\src\Todo\obj\Debug\netcoreapp2.1\Todo.csprojAssemblyReference.cache" />
+    <None Include="cdk\src\Todo\obj\project.assets.json" />
+    <None Include="cdk\src\Todo\obj\Todo.csproj.nuget.cache" />
+    <None Include="cdk\src\Todo\obj\Todo.csproj.nuget.dgspec.json" />
+    <None Include="cdk\src\Todo\obj\Todo.csproj.nuget.g.props" />
+    <None Include="cdk\src\Todo\obj\Todo.csproj.nuget.g.targets" />
+    <None Include="cdk\src\Todo\Todo.csproj" />
+    <None Include="CODE_OF_CONDUCT.md" />
+    <None Include="CONTRIBUTING.md" />
+    <None Include="README.md" />
+    <None Include="webapi\appsettings.Development.json" />
+    <None Include="webapi\appsettings.json" />
+    <None Include="webapi\Dockerfile" />
+    <None Include="webapi\obj\todo-app.csproj.nuget.cache" />
+    <None Include="webapi\obj\todo-app.csproj.nuget.dgspec.json" />
+    <None Include="webapi\obj\todo-app.csproj.nuget.g.props" />
+    <None Include="webapi\obj\todo-app.csproj.nuget.g.targets" />
+    <None Include="webapi\Properties\launchSettings.json" />
+    <None Include="webapi\todo-app.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <TypeScriptCompile Include="cdk\add-project.hook.d.ts" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="cdk\src\Todo\Constants.cs" />
+    <Compile Include="cdk\src\Todo\Modules\EnvironmentVariable.cs" />
+    <Compile Include="cdk\src\Todo\Modules\FargateExecutionRole.cs" />
+    <Compile Include="cdk\src\Todo\Modules\FargateTaskRole.cs" />
+    <Compile Include="cdk\src\Todo\obj\Debug\netcoreapp2.1\Todo.AssemblyInfo.cs" />
+    <Compile Include="cdk\src\Todo\Program.cs" />
+    <Compile Include="cdk\src\Todo\TodoInfraStack.cs" />
+    <Compile Include="cdk\src\Todo\Utilities\ServiceBuilder.cs" />
+    <Compile Include="cdk\src\Todo\Utilities\ServiceProvider.cs" />
+    <Compile Include="webapi\Controllers\Parameters.cs" />
+    <Compile Include="webapi\Controllers\TodoController.cs" />
+    <Compile Include="webapi\Controllers\ValuesController.cs" />
+    <Compile Include="webapi\Models\Todo.cs" />
+    <Compile Include="webapi\Models\TodoContext.cs" />
+    <Compile Include="webapi\Program.cs" />
+    <Compile Include="webapi\Startup.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include=".git\fsmonitor--daemon\cookies\" />
+    <Folder Include=".git\objects\info\" />
+    <Folder Include=".git\refs\tags\" />
+    <Folder Include=".vs\aws\v17\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+</Project>
