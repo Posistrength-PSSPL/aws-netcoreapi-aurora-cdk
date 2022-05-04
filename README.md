@@ -1,0 +1,1 @@
+# aws-netcoreapi-aurora-cdk
